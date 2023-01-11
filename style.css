@@ -1,0 +1,220 @@
+
+
+/* Главная страница */
+
+div {
+    background-image: url(images/fon.png);
+    }
+
+@font-face {
+    font-weight: normal;
+    font-family: "Roboto Condensed";
+    src: url(fonts/RobotoCondensed-Regular.ttf); 
+   }
+
+@font-face {
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    src: url(fonts/RobotoCondensed-Bold.ttf); 
+   }
+
+@font-face {
+    font-family: "Rubik";
+    font-weight: bold;
+    src: url(fonts/Rubik-Bold.ttf); 
+   }
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed";
+}
+
+a{
+    text-decoration: none;
+    color:rgb(80, 32, 1);
+}
+
+a:hover{
+    color: #df6727;
+}
+
+h1{
+    text-align:center;
+    padding-block: 2px;
+    color: #d1520d;
+    font-weight: 600;
+    font-size: 85px;
+    font-family: "Rubik" bold;
+}
+
+#container{
+    justify-content: center;
+    vertical-align: middle;
+    padding: 60px;
+    
+}
+
+
+div .icon{
+    clear: both;
+    text-align: left;
+    padding: 5px 80px ;
+    margin: auto ;
+}
+
+div .text{
+    margin: 2%;
+    padding-left: 1%;
+    font-size: 20px;
+    width: 45%;
+    float: left;
+   
+   
+}
+
+img.right{
+    margin: 1%;
+    float: right;
+    border: 1px solid rgb(80, 32, 1);
+}
+
+p.name{
+    font-size:25px;
+    font-family: "Rubik",bold;
+    font-weight: 600;
+
+}
+a.main-href{
+    color:#b34b01;
+}
+a.main-href:hover{
+    color:#eb6e2c;
+}
+#information-main {
+    clear: both;
+}
+
+
+
+
+
+
+/* Остальные страницы */
+
+a.main-link{
+    text-decoration: none;
+    color:#c76e0f;
+}
+a.main-link:hover{
+    color:#442700;
+}
+#center{
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    font-family: "Rubik" bold;
+    color:#49392a;
+    text-align: center;
+    padding-right: 90px;
+}
+.content div{
+    padding-top: 0px;
+    padding-block: 00px;;
+}
+ #container-2{
+    display: flex;
+    padding-bottom: 10px;
+}
+#container-2 div.page{
+    flex:4;
+}
+#container-2 div.left-a{
+    flex: 0 0 auto;
+} 
+h1.new{
+    font-size:  55px;
+    text-align: center;
+    padding-bottom: 0;
+    vertical-align: bottom;
+}
+
+.page div{
+    display: flex;
+    padding: 5px 20px 0px 20px;
+}
+
+.img-p,text-p{
+    padding: 20px;
+}
+
+.text-p{
+    font-size: 22px;
+}
+
+.home-a{
+    flex:1;
+    padding: 10px 0 0 10px;
+} 
+.home-a:h2 {
+
+    align-items:center;
+    display: block;
+    width: 75px;
+    height: 55px;
+    background-repeat: no-repeat;
+    padding: 20px 0 0 20px;
+}
+
+
+
+.h-name{
+    flex:16;
+   text-align: center;
+   padding-right: 145px;
+}
+
+img.full{
+    border:1px solid rgb(65, 35, 1);
+}
+
+#right-a{
+    opacity:50%;
+}
+
+#right-a:hover{
+    opacity: 100%;
+}
+
+#left-a{
+    opacity:60%;
+}
+
+#left-a:hover{
+    opacity: 100%;
+}
+
+#information-main h1{
+    padding:0;
+    font-size: 30px;
+    opacity: 100%;
+
+    color:#b34b01;
+    text-align: center;
+    padding-right:100px;
+    padding-top:20px;
+}
+
+.full{
+    width: 600px;
+    object-fit:cover;
+}
+
+#information{
+    transition-duration: 0.3s;
+}
+
+#right-a,#left-a{
+    transition-duration: 0.1s;
+}
